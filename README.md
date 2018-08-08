@@ -1,5 +1,5 @@
 # HCExtentionSwift
-
+'HCExtentionSwift is a collection of extensions which will shown in attributed inspector once you will change the class of particular items in indentity inspector'
 [![CI Status](https://img.shields.io/travis/HimanshuChimanji/HCExtentionSwift.svg?style=flat)](https://travis-ci.org/HimanshuChimanji/HCExtentionSwift)
 [![Version](https://img.shields.io/cocoapods/v/HCExtentionSwift.svg?style=flat)](https://cocoapods.org/pods/HCExtentionSwift)
 [![License](https://img.shields.io/cocoapods/l/HCExtentionSwift.svg?style=flat)](https://cocoapods.org/pods/HCExtentionSwift)

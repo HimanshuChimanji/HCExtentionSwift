@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'HCExtentionSwift is a collection of extensions which will shown in attributed inspector once you will change the class of particular items'
+'HCExtentionSwift is a collection of extensions which will shown in attributed inspector once you will change the class of particular items in indentity inspector'
                        DESC
 
   s.homepage         = 'https://github.com/HimanshuChimanji/HCExtentionSwift'
