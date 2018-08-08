@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		30CDDB8B6FD5C2CB3960B4B0BCE8C90A /* Pods-HCExtentionSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F06A23B26C45EBC97ED15DF6C133085A /* Pods-HCExtentionSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40C91311DAD4714D812368788913E02C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296095BEB47B160FF0B2B41BBE22528F /* ReplaceMe.swift */; };
 		4577F7E743317F1D0F3C7BB67D78864E /* HCExtentionSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB24CB23BDBC640D3CE1F55C468AA76E /* HCExtentionSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		478C22D3C5572177540B4FE6A36AB225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		569F939E447EAFEBDDEFDFB70B17B690 /* Pods-HCExtentionSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 603ABA1144E87E54EDD7B060A89C9AA5 /* Pods-HCExtentionSwift_Tests-dummy.m */; };
+		7FFC9C77211AC56500B8B17D /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9C76211AC56500B8B17D /* ViewDesign.swift */; };
+		7FFC9C79211AC67000B8B17D /* TextFieldDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9C78211AC67000B8B17D /* TextFieldDesign.swift */; };
+		7FFC9C7B211AC72C00B8B17D /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9C7A211AC72C00B8B17D /* ButtonDesign.swift */; };
+		7FFC9C7D211AC77C00B8B17D /* ImageViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9C7C211AC77C00B8B17D /* ImageViewDesign.swift */; };
+		7FFC9C7F211AC7DE00B8B17D /* LabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9C7E211AC7DE00B8B17D /* LabelDesign.swift */; };
+		7FFC9C81211AC87300B8B17D /* TextViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC9C80211AC87300B8B17D /* TextViewDesign.swift */; };
 		8E029F9070691A4ED5FCC1618B46C24C /* Pods-HCExtentionSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05757A3928BCE37E649590B1DB94A176 /* Pods-HCExtentionSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A83F1017F37234174282C6D75CE42D95 /* Pods-HCExtentionSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E372170D57388D072C8511C7E99C49BE /* Pods-HCExtentionSwift_Example-dummy.m */; };
 		AFA6EEFDAA31FBCF4D60F5435A11DC9E /* HCExtentionSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E738E358297326A4226EE5247D8E5B /* HCExtentionSwift-dummy.m */; };
@@ -39,7 +44,6 @@
 		1E9050DB545462E026F036BB1974DA44 /* Pods-HCExtentionSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCExtentionSwift_Example-resources.sh"; sourceTree = "<group>"; };
 		2308F43C9F3E616CF4B74C0796025BA2 /* Pods-HCExtentionSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCExtentionSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2613EB0373449D46D304F55D68971E48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		296095BEB47B160FF0B2B41BBE22528F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HCExtentionSwift/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2C4CA4304D88898F957D285DC547EF40 /* Pods_HCExtentionSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCExtentionSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7BF517F4DC804604A56840E6778628 /* Pods-HCExtentionSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCExtentionSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		55E738E358297326A4226EE5247D8E5B /* HCExtentionSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCExtentionSwift-dummy.m"; sourceTree = "<group>"; };
@@ -48,6 +52,12 @@
 		6141A98807129DE798CDB746F8A719E9 /* HCExtentionSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HCExtentionSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		680A0CB20D6BAFA3E96EFDD50567EA6E /* Pods-HCExtentionSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCExtentionSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7FFC9C76211AC56500B8B17D /* ViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewDesign.swift; path = HCExtentionSwift/Classes/ViewDesign.swift; sourceTree = "<group>"; };
+		7FFC9C78211AC67000B8B17D /* TextFieldDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldDesign.swift; path = HCExtentionSwift/Classes/TextFieldDesign.swift; sourceTree = "<group>"; };
+		7FFC9C7A211AC72C00B8B17D /* ButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonDesign.swift; path = HCExtentionSwift/Classes/ButtonDesign.swift; sourceTree = "<group>"; };
+		7FFC9C7C211AC77C00B8B17D /* ImageViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageViewDesign.swift; path = HCExtentionSwift/Classes/ImageViewDesign.swift; sourceTree = "<group>"; };
+		7FFC9C7E211AC7DE00B8B17D /* LabelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabelDesign.swift; path = HCExtentionSwift/Classes/LabelDesign.swift; sourceTree = "<group>"; };
+		7FFC9C80211AC87300B8B17D /* TextViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextViewDesign.swift; path = HCExtentionSwift/Classes/TextViewDesign.swift; sourceTree = "<group>"; };
 		89931FAF59A16CB2F2A3EFE1B3E3A264 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3EC413972A2B8AAF97BAC023D152E7 /* Pods-HCExtentionSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCExtentionSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -98,9 +108,14 @@
 		3D544EC41C14402A78BE6916861BCCEB /* HCExtentionSwift */ = {
 			isa = PBXGroup;
 			children = (
-				296095BEB47B160FF0B2B41BBE22528F /* ReplaceMe.swift */,
 				D3BB739CA2C599EED8A2A1FDCD8A95BD /* Pod */,
 				D1E1A8B83BB178DF9A1D4E8C4CC11286 /* Support Files */,
+				7FFC9C76211AC56500B8B17D /* ViewDesign.swift */,
+				7FFC9C78211AC67000B8B17D /* TextFieldDesign.swift */,
+				7FFC9C7A211AC72C00B8B17D /* ButtonDesign.swift */,
+				7FFC9C7C211AC77C00B8B17D /* ImageViewDesign.swift */,
+				7FFC9C7E211AC7DE00B8B17D /* LabelDesign.swift */,
+				7FFC9C80211AC87300B8B17D /* TextViewDesign.swift */,
 			);
 			name = HCExtentionSwift;
 			path = ../..;
@@ -310,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					7D4B1E4716929F8B5764BD49E4F3B728 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,8 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFC9C7F211AC7DE00B8B17D /* LabelDesign.swift in Sources */,
+				7FFC9C79211AC67000B8B17D /* TextFieldDesign.swift in Sources */,
+				7FFC9C77211AC56500B8B17D /* ViewDesign.swift in Sources */,
 				AFA6EEFDAA31FBCF4D60F5435A11DC9E /* HCExtentionSwift-dummy.m in Sources */,
-				40C91311DAD4714D812368788913E02C /* ReplaceMe.swift in Sources */,
+				7FFC9C81211AC87300B8B17D /* TextViewDesign.swift in Sources */,
+				7FFC9C7D211AC77C00B8B17D /* ImageViewDesign.swift in Sources */,
+				7FFC9C7B211AC72C00B8B17D /* ButtonDesign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A78C1D4E4E8A6FF9C9D4C1E6D3F4D8E8 /* HCExtentionSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -626,6 +652,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A78C1D4E4E8A6FF9C9D4C1E6D3F4D8E8 /* HCExtentionSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
