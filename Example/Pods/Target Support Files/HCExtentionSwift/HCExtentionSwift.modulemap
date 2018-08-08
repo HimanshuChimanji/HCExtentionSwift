@@ -1,0 +1,6 @@
+framework module HCExtentionSwift {
+  umbrella header "HCExtentionSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HCExtentionSwift (0.1.0)
+
+DEPENDENCIES:
+  - HCExtentionSwift (from `../`)
+
+EXTERNAL SOURCES:
+  HCExtentionSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HCExtentionSwift: 8a73ff121db2a9822b2b6c26496a9b93f358dd81
+
+PODFILE CHECKSUM: 32c09231e71bc82bce091e17a3e8f43553919609
+
+COCOAPODS: 1.4.0

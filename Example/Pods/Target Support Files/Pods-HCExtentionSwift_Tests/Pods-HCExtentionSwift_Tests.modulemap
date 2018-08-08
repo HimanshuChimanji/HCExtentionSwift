@@ -1,0 +1,6 @@
+framework module Pods_HCExtentionSwift_Tests {
+  umbrella header "Pods-HCExtentionSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
