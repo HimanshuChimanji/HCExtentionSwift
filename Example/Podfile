@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HCExtentionSwift_Example' do
+  pod 'HCExtentionSwift', :path => '../'
+
+  target 'HCExtentionSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
