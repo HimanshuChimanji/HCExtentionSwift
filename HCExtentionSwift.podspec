@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 'HCExtentionSwift is a collection of extensions which will shown in attributed inspector once you will change the class of particular items'
                        DESC
 
-  s.homepage         = 'https://github.com/Himanshu Chimanji/HCExtentionSwift'
+  s.homepage         = 'https://github.com/HimanshuChimanji/HCExtentionSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Himanshu Chimanji' => 'Himanshuchimanji9897@gmail.com' }
-  s.source           = { :git => 'https://github.com/Himanshu Chimanji/HCExtentionSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HimanshuChimanji/HCExtentionSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
