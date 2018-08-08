@@ -1,6 +1,6 @@
 # HCExtentionSwift
 
-[![CI Status](https://img.shields.io/travis/Himanshu Chimanji/HCExtentionSwift.svg?style=flat)](https://travis-ci.org/Himanshu Chimanji/HCExtentionSwift)
+[![CI Status](https://img.shields.io/travis/HimanshuChimanji/HCExtentionSwift.svg?style=flat)](https://travis-ci.org/HimanshuChimanji/HCExtentionSwift)
 [![Version](https://img.shields.io/cocoapods/v/HCExtentionSwift.svg?style=flat)](https://cocoapods.org/pods/HCExtentionSwift)
 [![License](https://img.shields.io/cocoapods/l/HCExtentionSwift.svg?style=flat)](https://cocoapods.org/pods/HCExtentionSwift)
 [![Platform](https://img.shields.io/cocoapods/p/HCExtentionSwift.svg?style=flat)](https://cocoapods.org/pods/HCExtentionSwift)
