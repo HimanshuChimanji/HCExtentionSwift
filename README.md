@@ -22,7 +22,7 @@ pod 'HCExtentionSwift'
 
 ## Author
 
-Himanshu Chimanji, Himanshu.chimanji@talent4assure.in
+Himanshu Chimanji, Himanshuchimanji9897@gmail.com
 
 ## License
 
