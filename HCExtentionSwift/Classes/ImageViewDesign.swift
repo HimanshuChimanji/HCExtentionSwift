@@ -7,7 +7,8 @@
 
 import UIKit
 
-@IBDesignable class ImageViewDesign: UIImageView {
+@IBDesignable
+open class ImageViewDesign: UIImageView {
     
     @IBInspectable var cornerradius : CGFloat = 0
     @IBInspectable var shadowOffSetWidth : CGFloat = 0
@@ -19,7 +20,7 @@ import UIKit
     
     
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         
         layer.cornerRadius = cornerradius
         layer.borderColor = boderColor.cgColor

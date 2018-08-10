@@ -7,7 +7,8 @@
 
 import UIKit
 
-@IBDesignable class ViewDesign: UIView {
+@IBDesignable
+open class ViewDesign: UIView {
     
     
     @IBInspectable var cornerradius : CGFloat = 0
@@ -18,7 +19,7 @@ import UIKit
     @IBInspectable var shadowColor : UIColor = UIColor.clear
     @IBInspectable var shadowOpacity : CGFloat = 0
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         
         layer.cornerRadius = cornerradius
         layer.borderColor = boderColor.cgColor

@@ -8,7 +8,8 @@
 
 import UIKit
 
-@IBDesignable class LabelDesign: UILabel {
+@IBDesignable
+open class LabelDesign: UILabel {
     
     @IBInspectable var cornerradius : CGFloat = 0
     @IBInspectable var shadowOffSetWidth : CGFloat = 0
@@ -23,7 +24,7 @@ import UIKit
     @IBInspectable var rightPadding : CGFloat = 0
     @IBInspectable var bottomPadding : CGFloat = 0
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
        
         layer.cornerRadius = cornerradius
         layer.borderColor = boderColor.cgColor
@@ -37,12 +38,12 @@ import UIKit
         
     }
     
-    override func drawText(in rect: CGRect) {
+    override open func drawText(in rect: CGRect) {
         let insets = UIEdgeInsets.init(top: topPadding, left: leftPadding, bottom: bottomPadding, right: rightPadding)
         super.drawText(in: UIEdgeInsetsInsetRect(rect, insets))
     }
     
-    override var intrinsicContentSize: CGSize {
+    override open var intrinsicContentSize: CGSize {
         let size = super.intrinsicContentSize
         return CGSize(width: size.width + leftPadding + rightPadding,
                       height: size.height + topPadding + bottomPadding)

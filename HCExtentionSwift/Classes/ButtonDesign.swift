@@ -7,7 +7,8 @@
 
 import UIKit
 
-@IBDesignable class ButtonDesign: UIButton {
+@IBDesignable
+open class ButtonDesign: UIButton {
     
     @IBInspectable var cornerradius : CGFloat = 0
     @IBInspectable var shadowOffSetWidth : CGFloat = 0
@@ -17,7 +18,7 @@ import UIKit
     @IBInspectable var shadowColor : UIColor = UIColor.clear
     @IBInspectable var shadowOpacity : CGFloat = 0
     
-    override func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         
         layer.cornerRadius = cornerradius
         layer.borderColor = boderColor.cgColor

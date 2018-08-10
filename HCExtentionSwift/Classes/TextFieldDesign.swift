@@ -6,7 +6,8 @@
 //
 import UIKit
 
-@IBDesignable class TextFieldDesign: UITextField {
+@IBDesignable
+open class TextFieldDesign: UITextField {
     
     @IBInspectable var cornerradius : CGFloat = 0
     @IBInspectable var shadowOffSetWidth : CGFloat = 0
@@ -21,7 +22,7 @@ import UIKit
     @IBInspectable var rightPadding : CGFloat = 0
     @IBInspectable var bottomPadding : CGFloat = 0
     
-    override func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         
         layer.cornerRadius = cornerradius
         layer.borderColor = boderColor.cgColor

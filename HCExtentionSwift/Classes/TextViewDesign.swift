@@ -8,7 +8,8 @@
 
 import UIKit
 
-@IBDesignable  class TextViewDesign: UITextView  {
+@IBDesignable
+open class TextViewDesign: UITextView  {
     
     @IBInspectable var cornerradius : CGFloat = 0
     @IBInspectable var boderWidth : CGFloat = 0
